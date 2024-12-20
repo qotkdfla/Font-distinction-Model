@@ -1,0 +1,44 @@
+html, body{height: 100%; font-family: Arial, Helvetica, sans-serif,; text-align: center ;}
+
+header {padding: 5px; 
+        background-color: rgb(59, 103, 99);
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14pt;}
+
+article{margin-top: 20px; }
+
+#preview{ float: left; margin-left: 20%;}
+aside{
+    float: right; text-align: center; 
+    position: absolute; top: 50%; transform: translateY(-50%);
+    margin-left: 60%;}
+
+input[type=file] {
+    padding: 0.5em;
+    background-color: cadetblue; 
+    color: white;
+    border: cadetblue;
+    border-radius: 5px;}
+
+input::file-selector-button{
+    font-weight: bold;
+    color: rgb(84, 142, 144);
+    padding: 0.3em;
+    border: cadetblue;
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+}
+
+#label-container{
+    color: rgb(59, 103, 99);
+    font-size: 11pt;
+    line-height: 2;
+    font-weight: 450;
+}
+
+p {
+    line-height: 0.7;
+    font-size: 10pt;
+}
+
